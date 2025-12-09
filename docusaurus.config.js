@@ -9,12 +9,11 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://iffatmumtaz.github.io',
+  url: 'https://q4-hackathon1.vercel.app', // Vercel deployment URL
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub Pages deployment, it's usually '/<projectName>/'
-  baseUrl: '/Q4-hackathon1/',
+  baseUrl: '/',
 
-  // GitHub pages deployment config.
+  // GitHub pages deployment config (only needed if also deploying to GH Pages)
   organizationName: 'iffatmumtaz', // Usually your GitHub org/user name.
   projectName: 'Q4-hackathon1', // Usually your repo name.
 
