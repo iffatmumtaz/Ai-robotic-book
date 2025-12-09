@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-accessibility-improvements" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">Accessibility Improvements | Physical AI &amp; Humanoid Robotics</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://iffatmumtaz.github.io/Q4-hackathon1/img/docusaurus-social-card.png"><meta data-rh="true" name="twitter:image" content="https://iffatmumtaz.github.io/Q4-hackathon1/img/docusaurus-social-card.png"><meta data-rh="true" property="og:url" content="https://iffatmumtaz.github.io/Q4-hackathon1/docs/accessibility-improvements"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Accessibility Improvements | Physical AI &amp; Humanoid Robotics"><meta data-rh="true" name="description" content="Guidelines and implementations for ensuring the Physical AI &amp; Humanoid Robotics Book is accessible to all readers"><meta data-rh="true" property="og:description" content="Guidelines and implementations for ensuring the Physical AI &amp; Humanoid Robotics Book is accessible to all readers"><link data-rh="true" rel="icon" href="/Q4-hackathon1/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://iffatmumtaz.github.io/Q4-hackathon1/docs/accessibility-improvements"><link data-rh="true" rel="alternate" href="https://iffatmumtaz.github.io/Q4-hackathon1/docs/accessibility-improvements" hreflang="en"><link data-rh="true" rel="alternate" href="https://iffatmumtaz.github.io/Q4-hackathon1/docs/accessibility-improvements" hreflang="x-default"><link rel="stylesheet" href="/Q4-hackathon1/assets/css/styles.16ae8dca.css">
+<script src="/Q4-hackathon1/assets/js/runtime~main.27f00786.js" defer="defer"></script>
+<script src="/Q4-hackathon1/assets/js/main.60e55008.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"light"),document.documentElement.setAttribute("data-theme-choice",t||"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/Q4-hackathon1/"><div class="navbar__logo"><img src="/Q4-hackathon1/img/logo.svg" alt="Physical AI Book Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/Q4-hackathon1/img/logo.svg" alt="Physical AI Book Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Physical AI &amp; Humanoid Robotics</b></a><a class="navbar__item navbar__link" href="/Q4-hackathon1/docs/intro">Book</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/iffatmumtaz/Q4-hackathon1" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><main class="docMainContainer_TBSr docMainContainerEnhanced_lQrH"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Accessibility Improvements</h1></header>
+<p>This document outlines the accessibility improvements implemented in the Physical AI &amp; Humanoid Robotics Book to ensure content is usable by all readers, including those with disabilities or special needs.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="accessibility-standards-and-guidelines">Accessibility Standards and Guidelines<a href="#accessibility-standards-and-guidelines" class="hash-link" aria-label="Direct link to Accessibility Standards and Guidelines" title="Direct link to Accessibility Standards and Guidelines" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="wcag-21-aa-compliance">WCAG 2.1 AA Compliance<a href="#wcag-21-aa-compliance" class="hash-link" aria-label="Direct link to WCAG 2.1 AA Compliance" title="Direct link to WCAG 2.1 AA Compliance" translate="no">​</a></h3>
+<p>The documentation follows Web Content Accessibility Guidelines (WCAG) 2.1 Level AA standards:</p>
+<ul>
+<li class=""><strong>Perceivable</strong>: Information and user interface components must be presentable to users in ways they can perceive</li>
+<li class=""><strong>Operable</strong>: User interface components and navigation must be operable</li>
+<li class=""><strong>Understandable</strong>: Information and the operation of user interface must be understandable</li>
+<li class=""><strong>Robust</strong>: Content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="section-508-compliance">Section 508 Compliance<a href="#section-508-compliance" class="hash-link" aria-label="Direct link to Section 508 Compliance" title="Direct link to Section 508 Compliance" translate="no">​</a></h3>
+<p>The content meets Section 508 accessibility standards for federal electronic and information technology.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="implemented-accessibility-features">Implemented Accessibility Features<a href="#implemented-accessibility-features" class="hash-link" aria-label="Direct link to Implemented Accessibility Features" title="Direct link to Implemented Accessibility Features" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-text-alternatives">1. Text Alternatives<a href="#1-text-alternatives" class="hash-link" aria-label="Direct link to 1. Text Alternatives" title="Direct link to 1. Text Alternatives" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="alt-text-for-images-and-diagrams">Alt Text for Images and Diagrams<a href="#alt-text-for-images-and-diagrams" class="hash-link" aria-label="Direct link to Alt Text for Images and Diagrams" title="Direct link to Alt Text for Images and Diagrams" translate="no">​</a></h4>
+<ul>
+<li class="">All images include descriptive alt text</li>
+<li class="">Diagrams include detailed descriptions of components and relationships</li>
+<li class="">Complex diagrams have detailed textual explanations</li>
+</ul>
+<p>Example:</p>
+<div class="language-markdown codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-markdown codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token url operator" style="color:#393A34">!</span><span class="token url" style="color:#36acaa">[</span><span class="token url content" style="color:#36acaa">LLM-ROS 2 Integration Architecture Diagram showing voice input flowing through speech recognition, LLM processing, action planning, and robot execution with safety validation at each stage</span><span class="token url" style="color:#36acaa">](</span><span class="token url" style="color:#36acaa">./img/llm-ros-architecture.png</span><span class="token url" style="color:#36acaa">)</span><br></span></code></pre></div></div>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="figure-captions">Figure Captions<a href="#figure-captions" class="hash-link" aria-label="Direct link to Figure Captions" title="Direct link to Figure Captions" translate="no">​</a></h4>
+<ul>
+<li class="">All figures include descriptive captions</li>
+<li class="">Complex diagrams have detailed explanations</li>
+<li class="">Captions provide context for visual information</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-keyboard-navigation">2. Keyboard Navigation<a href="#2-keyboard-navigation" class="hash-link" aria-label="Direct link to 2. Keyboard Navigation" title="Direct link to 2. Keyboard Navigation" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="full-keyboard-accessibility">Full Keyboard Accessibility<a href="#full-keyboard-accessibility" class="hash-link" aria-label="Direct link to Full Keyboard Accessibility" title="Direct link to Full Keyboard Accessibility" translate="no">​</a></h4>
+<ul>
+<li class="">All interactive elements are accessible via keyboard</li>
+<li class="">Logical tab order through content</li>
+<li class="">Visible focus indicators for keyboard navigation</li>
+<li class="">Skip navigation links for screen reader users</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="keyboard-shortcuts">Keyboard Shortcuts<a href="#keyboard-shortcuts" class="hash-link" aria-label="Direct link to Keyboard Shortcuts" title="Direct link to Keyboard Shortcuts" translate="no">​</a></h4>
+<ul>
+<li class="">Documentation of keyboard shortcuts for common actions</li>
+<li class="">Consistent shortcut patterns throughout the documentation</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-color-and-contrast">3. Color and Contrast<a href="#3-color-and-contrast" class="hash-link" aria-label="Direct link to 3. Color and Contrast" title="Direct link to 3. Color and Contrast" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="sufficient-color-contrast">Sufficient Color Contrast<a href="#sufficient-color-contrast" class="hash-link" aria-label="Direct link to Sufficient Color Contrast" title="Direct link to Sufficient Color Contrast" translate="no">​</a></h4>
+<ul>
+<li class="">Minimum 4.5:1 contrast ratio for normal text</li>
+<li class="">Minimum 3:1 contrast ratio for large text</li>
+<li class="">Color is not used as the only means of conveying information</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="color-blind-friendly-palettes">Color-Blind Friendly Palettes<a href="#color-blind-friendly-palettes" class="hash-link" aria-label="Direct link to Color-Blind Friendly Palettes" title="Direct link to Color-Blind Friendly Palettes" translate="no">​</a></h4>
+<ul>
+<li class="">Avoid red-green color combinations</li>
+<li class="">Use patterns and textures in addition to color</li>
+<li class="">Test with color blindness simulators</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-text-readability">4. Text Readability<a href="#4-text-readability" class="hash-link" aria-label="Direct link to 4. Text Readability" title="Direct link to 4. Text Readability" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="reading-level">Reading Level<a href="#reading-level" class="hash-link" aria-label="Direct link to Reading Level" title="Direct link to Reading Level" translate="no">​</a></h4>
+<ul>
+<li class="">Content written at Grade 8-10 reading level as specified in the constitution</li>
+<li class="">Clear, concise language</li>
+<li class="">Avoiding unnecessary jargon</li>
+<li class="">Definitions provided for technical terms</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="typography">Typography<a href="#typography" class="hash-link" aria-label="Direct link to Typography" title="Direct link to Typography" translate="no">​</a></h4>
+<ul>
+<li class="">Sufficient font sizes (minimum 16px for body text)</li>
+<li class="">Readable fonts (sans-serif for web content)</li>
+<li class="">Adequate line spacing (1.5x line height)</li>
+<li class="">Sufficient white space</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-heading-structure">5. Heading Structure<a href="#5-heading-structure" class="hash-link" aria-label="Direct link to 5. Heading Structure" title="Direct link to 5. Heading Structure" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="logical-heading-hierarchy">Logical Heading Hierarchy<a href="#logical-heading-hierarchy" class="hash-link" aria-label="Direct link to Logical Heading Hierarchy" title="Direct link to Logical Heading Hierarchy" translate="no">​</a></h4>
+<ul>
+<li class="">Proper heading levels (H1 for page titles, H2 for main sections, etc.)</li>
+<li class="">No skipped heading levels</li>
+<li class="">Descriptive headings that indicate content structure</li>
+<li class="">Consistent heading patterns across modules</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="6-forms-and-interactive-elements">6. Forms and Interactive Elements<a href="#6-forms-and-interactive-elements" class="hash-link" aria-label="Direct link to 6. Forms and Interactive Elements" title="Direct link to 6. Forms and Interactive Elements" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="accessible-form-controls">Accessible Form Controls<a href="#accessible-form-controls" class="hash-link" aria-label="Direct link to Accessible Form Controls" title="Direct link to Accessible Form Controls" translate="no">​</a></h4>
+<ul>
+<li class="">All form elements have associated labels</li>
+<li class="">Clear instructions and error messages</li>
+<li class="">Focus management for dynamic content</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="buttons-and-links">Buttons and Links<a href="#buttons-and-links" class="hash-link" aria-label="Direct link to Buttons and Links" title="Direct link to Buttons and Links" translate="no">​</a></h4>
+<ul>
+<li class="">Sufficient size for touch targets (minimum 44x44 pixels)</li>
+<li class="">Clear link text that describes the destination</li>
+<li class="">Visual indicators for interactive elements</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="content-accessibility-features">Content Accessibility Features<a href="#content-accessibility-features" class="hash-link" aria-label="Direct link to Content Accessibility Features" title="Direct link to Content Accessibility Features" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-multiple-content-formats">1. Multiple Content Formats<a href="#1-multiple-content-formats" class="hash-link" aria-label="Direct link to 1. Multiple Content Formats" title="Direct link to 1. Multiple Content Formats" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="text-based-explanations">Text-Based Explanations<a href="#text-based-explanations" class="hash-link" aria-label="Direct link to Text-Based Explanations" title="Direct link to Text-Based Explanations" translate="no">​</a></h4>
+<ul>
+<li class="">All visual information has text equivalents</li>
+<li class="">Detailed explanations for diagrams and images</li>
+<li class="">Step-by-step text instructions for all procedures</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="code-examples">Code Examples<a href="#code-examples" class="hash-link" aria-label="Direct link to Code Examples" title="Direct link to Code Examples" translate="no">​</a></h4>
+<ul>
+<li class="">All code examples include detailed comments</li>
+<li class="">Syntax highlighting for better readability</li>
+<li class="">Alternative formats for complex code structures</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-navigation-aids">2. Navigation Aids<a href="#2-navigation-aids" class="hash-link" aria-label="Direct link to 2. Navigation Aids" title="Direct link to 2. Navigation Aids" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="table-of-contents">Table of Contents<a href="#table-of-contents" class="hash-link" aria-label="Direct link to Table of Contents" title="Direct link to Table of Contents" translate="no">​</a></h4>
+<ul>
+<li class="">Comprehensive table of contents for each module</li>
+<li class="">Breadcrumb navigation for context</li>
+<li class="">Search functionality for quick access</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="internal-linking">Internal Linking<a href="#internal-linking" class="hash-link" aria-label="Direct link to Internal Linking" title="Direct link to Internal Linking" translate="no">​</a></h4>
+<ul>
+<li class="">Cross-references between related concepts</li>
+<li class="">&quot;See Also&quot; sections for related topics</li>
+<li class="">Clear navigation between modules and lessons</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-content-organization">3. Content Organization<a href="#3-content-organization" class="hash-link" aria-label="Direct link to 3. Content Organization" title="Direct link to 3. Content Organization" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="consistent-structure">Consistent Structure<a href="#consistent-structure" class="hash-link" aria-label="Direct link to Consistent Structure" title="Direct link to Consistent Structure" translate="no">​</a></h4>
+<ul>
+<li class="">Consistent format across all lessons</li>
+<li class="">Predictable content organization</li>
+<li class="">Clear learning objectives at the beginning of each section</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="progressive-disclosure">Progressive Disclosure<a href="#progressive-disclosure" class="hash-link" aria-label="Direct link to Progressive Disclosure" title="Direct link to Progressive Disclosure" translate="no">​</a></h4>
+<ul>
+<li class="">Complex topics broken into digestible sections</li>
+<li class="">Advanced topics clearly marked</li>
+<li class="">Prerequisites clearly stated</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="technical-accessibility-implementation">Technical Accessibility Implementation<a href="#technical-accessibility-implementation" class="hash-link" aria-label="Direct link to Technical Accessibility Implementation" title="Direct link to Technical Accessibility Implementation" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-html-structure">1. HTML Structure<a href="#1-html-structure" class="hash-link" aria-label="Direct link to 1. HTML Structure" title="Direct link to 1. HTML Structure" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="semantic-html">Semantic HTML<a href="#semantic-html" class="hash-link" aria-label="Direct link to Semantic HTML" title="Direct link to Semantic HTML" translate="no">​</a></h4>
+<ul>
+<li class="">Proper use of HTML5 semantic elements</li>
+<li class="">Correct heading hierarchy</li>
+<li class="">Appropriate use of lists, tables, and other structural elements</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="aria-labels-and-roles">ARIA Labels and Roles<a href="#aria-labels-and-roles" class="hash-link" aria-label="Direct link to ARIA Labels and Roles" title="Direct link to ARIA Labels and Roles" translate="no">​</a></h4>
+<ul>
+<li class="">Appropriate ARIA labels for interactive elements</li>
+<li class="">Landmark roles for page structure</li>
+<li class="">Live regions for dynamic content updates</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-responsive-design">2. Responsive Design<a href="#2-responsive-design" class="hash-link" aria-label="Direct link to 2. Responsive Design" title="Direct link to 2. Responsive Design" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="mobile-accessibility">Mobile Accessibility<a href="#mobile-accessibility" class="hash-link" aria-label="Direct link to Mobile Accessibility" title="Direct link to Mobile Accessibility" translate="no">​</a></h4>
+<ul>
+<li class="">Touch-friendly interface elements</li>
+<li class="">Responsive layouts for different screen sizes</li>
+<li class="">Orientation flexibility</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="zoom-support">Zoom Support<a href="#zoom-support" class="hash-link" aria-label="Direct link to Zoom Support" title="Direct link to Zoom Support" translate="no">​</a></h4>
+<ul>
+<li class="">Content remains accessible when zoomed to 200%</li>
+<li class="">Horizontal scrolling not required at 200% zoom</li>
+<li class="">Font scaling without loss of functionality</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-performance-considerations">3. Performance Considerations<a href="#3-performance-considerations" class="hash-link" aria-label="Direct link to 3. Performance Considerations" title="Direct link to 3. Performance Considerations" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="fast-loading">Fast Loading<a href="#fast-loading" class="hash-link" aria-label="Direct link to Fast Loading" title="Direct link to Fast Loading" translate="no">​</a></h4>
+<ul>
+<li class="">Optimized images and assets</li>
+<li class="">Efficient code examples</li>
+<li class="">Progressive loading for large content sections</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="minimal-animation">Minimal Animation<a href="#minimal-animation" class="hash-link" aria-label="Direct link to Minimal Animation" title="Direct link to Minimal Animation" translate="no">​</a></h4>
+<ul>
+<li class="">Reduced motion options where appropriate</li>
+<li class="">No flashing content that could trigger seizures</li>
+<li class="">User control over animated elements</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="specific-accommodations">Specific Accommodations<a href="#specific-accommodations" class="hash-link" aria-label="Direct link to Specific Accommodations" title="Direct link to Specific Accommodations" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-visual-impairments">1. Visual Impairments<a href="#1-visual-impairments" class="hash-link" aria-label="Direct link to 1. Visual Impairments" title="Direct link to 1. Visual Impairments" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="screen-reader-compatibility">Screen Reader Compatibility<a href="#screen-reader-compatibility" class="hash-link" aria-label="Direct link to Screen Reader Compatibility" title="Direct link to Screen Reader Compatibility" translate="no">​</a></h4>
+<ul>
+<li class="">Proper heading structure for navigation</li>
+<li class="">Descriptive link text</li>
+<li class="">Alternative text for all images</li>
+<li class="">Landmark regions for easy navigation</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="high-contrast-mode">High Contrast Mode<a href="#high-contrast-mode" class="hash-link" aria-label="Direct link to High Contrast Mode" title="Direct link to High Contrast Mode" translate="no">​</a></h4>
+<ul>
+<li class="">CSS for high contrast themes</li>
+<li class="">Sufficient color contrast in all states</li>
+<li class="">Support for system high contrast modes</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-motor-impairments">2. Motor Impairments<a href="#2-motor-impairments" class="hash-link" aria-label="Direct link to 2. Motor Impairments" title="Direct link to 2. Motor Impairments" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="keyboard-navigation">Keyboard Navigation<a href="#keyboard-navigation" class="hash-link" aria-label="Direct link to Keyboard Navigation" title="Direct link to Keyboard Navigation" translate="no">​</a></h4>
+<ul>
+<li class="">Full functionality via keyboard</li>
+<li class="">Adjustable timing for interactive elements</li>
+<li class="">Single-switch compatibility where possible</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="large-click-targets">Large Click Targets<a href="#large-click-targets" class="hash-link" aria-label="Direct link to Large Click Targets" title="Direct link to Large Click Targets" translate="no">​</a></h4>
+<ul>
+<li class="">Minimum 44x44 pixel touch targets</li>
+<li class="">Adequate spacing between interactive elements</li>
+<li class="">Clear visual feedback for selections</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-cognitive-impairments">3. Cognitive Impairments<a href="#3-cognitive-impairments" class="hash-link" aria-label="Direct link to 3. Cognitive Impairments" title="Direct link to 3. Cognitive Impairments" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="clear-language">Clear Language<a href="#clear-language" class="hash-link" aria-label="Direct link to Clear Language" title="Direct link to Clear Language" translate="no">​</a></h4>
+<ul>
+<li class="">Simple, clear sentences</li>
+<li class="">Consistent terminology</li>
+<li class="">Bullet points and numbered lists for complex information</li>
+<li class="">Summary sections for key points</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="distraction-free-reading">Distraction-Free Reading<a href="#distraction-free-reading" class="hash-link" aria-label="Direct link to Distraction-Free Reading" title="Direct link to Distraction-Free Reading" translate="no">​</a></h4>
+<ul>
+<li class="">Minimal use of animations</li>
+<li class="">Clear visual hierarchy</li>
+<li class="">Option to focus on single sections</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="testing-and-validation">Testing and Validation<a href="#testing-and-validation" class="hash-link" aria-label="Direct link to Testing and Validation" title="Direct link to Testing and Validation" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-automated-testing">1. Automated Testing<a href="#1-automated-testing" class="hash-link" aria-label="Direct link to 1. Automated Testing" title="Direct link to 1. Automated Testing" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="accessibility-testing-tools">Accessibility Testing Tools<a href="#accessibility-testing-tools" class="hash-link" aria-label="Direct link to Accessibility Testing Tools" title="Direct link to Accessibility Testing Tools" translate="no">​</a></h4>
+<ul>
+<li class="">axe-core for automated accessibility testing</li>
+<li class="">WAVE for web accessibility evaluation</li>
+<li class="">Lighthouse for performance and accessibility metrics</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="cicd-integration">CI/CD Integration<a href="#cicd-integration" class="hash-link" aria-label="Direct link to CI/CD Integration" title="Direct link to CI/CD Integration" translate="no">​</a></h4>
+<ul>
+<li class="">Accessibility checks in continuous integration</li>
+<li class="">Automated testing for new content</li>
+<li class="">Accessibility regression testing</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-manual-testing">2. Manual Testing<a href="#2-manual-testing" class="hash-link" aria-label="Direct link to 2. Manual Testing" title="Direct link to 2. Manual Testing" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="keyboard-testing">Keyboard Testing<a href="#keyboard-testing" class="hash-link" aria-label="Direct link to Keyboard Testing" title="Direct link to Keyboard Testing" translate="no">​</a></h4>
+<ul>
+<li class="">Full functionality via keyboard navigation</li>
+<li class="">Logical tab order</li>
+<li class="">Visible focus indicators</li>
+<li class="">Skip link functionality</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="screen-reader-testing">Screen Reader Testing<a href="#screen-reader-testing" class="hash-link" aria-label="Direct link to Screen Reader Testing" title="Direct link to Screen Reader Testing" translate="no">​</a></h4>
+<ul>
+<li class="">Testing with popular screen readers (NVDA, JAWS, VoiceOver)</li>
+<li class="">Proper announcement of content and navigation</li>
+<li class="">Logical reading order</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-user-testing">3. User Testing<a href="#3-user-testing" class="hash-link" aria-label="Direct link to 3. User Testing" title="Direct link to 3. User Testing" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="diverse-user-groups">Diverse User Groups<a href="#diverse-user-groups" class="hash-link" aria-label="Direct link to Diverse User Groups" title="Direct link to Diverse User Groups" translate="no">​</a></h4>
+<ul>
+<li class="">Testing with users of different abilities</li>
+<li class="">Feedback from users with assistive technologies</li>
+<li class="">Iterative improvements based on user feedback</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="maintenance-and-updates">Maintenance and Updates<a href="#maintenance-and-updates" class="hash-link" aria-label="Direct link to Maintenance and Updates" title="Direct link to Maintenance and Updates" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-ongoing-monitoring">1. Ongoing Monitoring<a href="#1-ongoing-monitoring" class="hash-link" aria-label="Direct link to 1. Ongoing Monitoring" title="Direct link to 1. Ongoing Monitoring" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="regular-audits">Regular Audits<a href="#regular-audits" class="hash-link" aria-label="Direct link to Regular Audits" title="Direct link to Regular Audits" translate="no">​</a></h4>
+<ul>
+<li class="">Monthly accessibility audits</li>
+<li class="">Review of new content for accessibility</li>
+<li class="">Monitoring of user feedback regarding accessibility</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="performance-tracking">Performance Tracking<a href="#performance-tracking" class="hash-link" aria-label="Direct link to Performance Tracking" title="Direct link to Performance Tracking" translate="no">​</a></h4>
+<ul>
+<li class="">Tracking of accessibility metrics</li>
+<li class="">Monitoring of assistive technology usage</li>
+<li class="">Analysis of user engagement across different abilities</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-continuous-improvement">2. Continuous Improvement<a href="#2-continuous-improvement" class="hash-link" aria-label="Direct link to 2. Continuous Improvement" title="Direct link to 2. Continuous Improvement" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="feedback-mechanisms">Feedback Mechanisms<a href="#feedback-mechanisms" class="hash-link" aria-label="Direct link to Feedback Mechanisms" title="Direct link to Feedback Mechanisms" translate="no">​</a></h4>
+<ul>
+<li class="">Easy reporting of accessibility issues</li>
+<li class="">Regular updates based on user feedback</li>
+<li class="">Prioritization of accessibility improvements</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="training-and-awareness">Training and Awareness<a href="#training-and-awareness" class="hash-link" aria-label="Direct link to Training and Awareness" title="Direct link to Training and Awareness" translate="no">​</a></h4>
+<ul>
+<li class="">Team training on accessibility best practices</li>
+<li class="">Guidelines for creating accessible content</li>
+<li class="">Review processes for accessibility compliance</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="compliance-verification">Compliance Verification<a href="#compliance-verification" class="hash-link" aria-label="Direct link to Compliance Verification" title="Direct link to Compliance Verification" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-standards-compliance-checklists">1. Standards Compliance Checklists<a href="#1-standards-compliance-checklists" class="hash-link" aria-label="Direct link to 1. Standards Compliance Checklists" title="Direct link to 1. Standards Compliance Checklists" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="wcag-21-aa-checklist">WCAG 2.1 AA Checklist<a href="#wcag-21-aa-checklist" class="hash-link" aria-label="Direct link to WCAG 2.1 AA Checklist" title="Direct link to WCAG 2.1 AA Checklist" translate="no">​</a></h4>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->All non-text content has text alternatives</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Content is adaptable to different presentation formats</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Content is distinguishable from its background</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->All functionality is available from keyboard</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Users have enough time to read and use content</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Content does not cause seizures or physical reactions</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Users can navigate, find content, and determine where they are</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Text is readable and understandable</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Content appears and operates in predictable ways</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Input assistance is provided to help users avoid and correct mistakes</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <!-- -->Compatible with current and future user tools</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2-documentation">2. Documentation<a href="#2-documentation" class="hash-link" aria-label="Direct link to 2. Documentation" title="Direct link to 2. Documentation" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="accessibility-statement">Accessibility Statement<a href="#accessibility-statement" class="hash-link" aria-label="Direct link to Accessibility Statement" title="Direct link to Accessibility Statement" translate="no">​</a></h4>
+<ul>
+<li class="">Clear statement of accessibility commitment</li>
+<li class="">Contact information for accessibility feedback</li>
+<li class="">Known limitations and workarounds</li>
+</ul>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="remediation-procedures">Remediation Procedures<a href="#remediation-procedures" class="hash-link" aria-label="Direct link to Remediation Procedures" title="Direct link to Remediation Procedures" translate="no">​</a></h4>
+<ul>
+<li class="">Process for addressing accessibility issues</li>
+<li class="">Timeline for corrections</li>
+<li class="">Communication plan for users affected by issues</li>
+</ul>
+<p>By implementing these accessibility improvements, the Physical AI &amp; Humanoid Robotics Book ensures that all readers, regardless of ability, can access and benefit from the educational content.</p></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/iffatmumtaz/Q4-hackathon1/edit/main/docs/accessibility-improvements.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#accessibility-standards-and-guidelines" class="table-of-contents__link toc-highlight">Accessibility Standards and Guidelines</a><ul><li><a href="#wcag-21-aa-compliance" class="table-of-contents__link toc-highlight">WCAG 2.1 AA Compliance</a></li><li><a href="#section-508-compliance" class="table-of-contents__link toc-highlight">Section 508 Compliance</a></li></ul></li><li><a href="#implemented-accessibility-features" class="table-of-contents__link toc-highlight">Implemented Accessibility Features</a><ul><li><a href="#1-text-alternatives" class="table-of-contents__link toc-highlight">1. Text Alternatives</a></li><li><a href="#2-keyboard-navigation" class="table-of-contents__link toc-highlight">2. Keyboard Navigation</a></li><li><a href="#3-color-and-contrast" class="table-of-contents__link toc-highlight">3. Color and Contrast</a></li><li><a href="#4-text-readability" class="table-of-contents__link toc-highlight">4. Text Readability</a></li><li><a href="#5-heading-structure" class="table-of-contents__link toc-highlight">5. Heading Structure</a></li><li><a href="#6-forms-and-interactive-elements" class="table-of-contents__link toc-highlight">6. Forms and Interactive Elements</a></li></ul></li><li><a href="#content-accessibility-features" class="table-of-contents__link toc-highlight">Content Accessibility Features</a><ul><li><a href="#1-multiple-content-formats" class="table-of-contents__link toc-highlight">1. Multiple Content Formats</a></li><li><a href="#2-navigation-aids" class="table-of-contents__link toc-highlight">2. Navigation Aids</a></li><li><a href="#3-content-organization" class="table-of-contents__link toc-highlight">3. Content Organization</a></li></ul></li><li><a href="#technical-accessibility-implementation" class="table-of-contents__link toc-highlight">Technical Accessibility Implementation</a><ul><li><a href="#1-html-structure" class="table-of-contents__link toc-highlight">1. HTML Structure</a></li><li><a href="#2-responsive-design" class="table-of-contents__link toc-highlight">2. Responsive Design</a></li><li><a href="#3-performance-considerations" class="table-of-contents__link toc-highlight">3. Performance Considerations</a></li></ul></li><li><a href="#specific-accommodations" class="table-of-contents__link toc-highlight">Specific Accommodations</a><ul><li><a href="#1-visual-impairments" class="table-of-contents__link toc-highlight">1. Visual Impairments</a></li><li><a href="#2-motor-impairments" class="table-of-contents__link toc-highlight">2. Motor Impairments</a></li><li><a href="#3-cognitive-impairments" class="table-of-contents__link toc-highlight">3. Cognitive Impairments</a></li></ul></li><li><a href="#testing-and-validation" class="table-of-contents__link toc-highlight">Testing and Validation</a><ul><li><a href="#1-automated-testing" class="table-of-contents__link toc-highlight">1. Automated Testing</a></li><li><a href="#2-manual-testing" class="table-of-contents__link toc-highlight">2. Manual Testing</a></li><li><a href="#3-user-testing" class="table-of-contents__link toc-highlight">3. User Testing</a></li></ul></li><li><a href="#maintenance-and-updates" class="table-of-contents__link toc-highlight">Maintenance and Updates</a><ul><li><a href="#1-ongoing-monitoring" class="table-of-contents__link toc-highlight">1. Ongoing Monitoring</a></li><li><a href="#2-continuous-improvement" class="table-of-contents__link toc-highlight">2. Continuous Improvement</a></li></ul></li><li><a href="#compliance-verification" class="table-of-contents__link toc-highlight">Compliance Verification</a><ul><li><a href="#1-standards-compliance-checklists" class="table-of-contents__link toc-highlight">1. Standards Compliance Checklists</a></li><li><a href="#2-documentation" class="table-of-contents__link toc-highlight">2. Documentation</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/Q4-hackathon1/docs/intro">Book Introduction</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://stackoverflow.com/questions/tagged/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Stack Overflow<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://discordapp.com/invite/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/facebook/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 Physical AI Book. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>

@@ -9,14 +9,14 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-username.github.io',
+  url: 'https://iffatmumtaz.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub Pages deployment, it's usually '/<projectName>/'
-  baseUrl: '/physical-ai-book',
+  baseUrl: '/Q4-hackathon1/',
 
   // GitHub pages deployment config.
-  organizationName: 'your-organization', // Usually your GitHub org/user name.
-  projectName: 'physical-ai-book', // Usually your repo name.
+  organizationName: 'iffatmumtaz', // Usually your GitHub org/user name.
+  projectName: 'Q4-hackathon1', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -39,7 +39,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/your-username/physical-ai-book/edit/main/',
+            'https://github.com/iffatmumtaz/Q4-hackathon1/edit/main/',
         },
         blog: false, // Disable blog if not needed
         theme: {
@@ -68,7 +68,7 @@ const config = {
             label: 'Book',
           },
           {
-            href: 'https://github.com/your-username/physical-ai-book',
+            href: 'https://github.com/iffatmumtaz/Q4-hackathon1',
             label: 'GitHub',
             position: 'right',
           },

@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Static Files Placeholder</title>
+  </head>
+  <body>
+    <p>This is a placeholder file to ensure static directory exists.</p>
+  </body>
+</html>

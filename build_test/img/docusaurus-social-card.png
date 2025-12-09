@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#222"/>
+  <text x="600" y="300" font-family="Arial, sans-serif" font-size="60" fill="white" text-anchor="middle">Physical AI & Humanoid Robotics</text>
+  <text x="600" y="400" font-family="Arial, sans-serif" font-size="40" fill="#ddd" text-anchor="middle">A comprehensive guide to embodied intelligence</text>
+  <rect x="100" y="100" width="1000" height="430" fill="none" stroke="#4f95e0" stroke-width="4"/>
+</svg>
