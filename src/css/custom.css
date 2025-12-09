@@ -1,0 +1,77 @@
+/**
+ * Copyright (c) 2017-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/* You can override the default Docusaurus variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+}
+
+/* Custom styles for the Physical AI & Humanoid Robotics book */
+.book-intro {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.module-intro {
+  border-left: 4px solid var(--ifm-color-primary);
+  padding-left: 1rem;
+  margin: 1rem 0;
+}
+
+.lesson-objectives {
+  background-color: #f8f9fa;
+  border-left: 4px solid #28a745;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.lesson-objectives h3 {
+  margin-top: 0;
+}
+
+.code-example {
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+/* Robotics-specific styling */
+.robotics-diagram {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.robotics-diagram img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Terminal/command styling */
+.terminal {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-family: 'Consolas', 'Monaco', monospace;
+  overflow-x: auto;
+}
+
+.terminal .command {
+  color: #4ec9b0;
+}
+
+.terminal .output {
+  color: #d4d4d4;
+}

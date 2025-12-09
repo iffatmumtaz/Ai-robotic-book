@@ -31,7 +31,14 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **Accuracy using official documentation and primary sources**: All content will be fact-checked against official documentation and primary research papers.
+- [ ] **Clear writing for beginner–intermediate developers**: Content will be reviewed for readability (targeting Grade 8-10) and clarity.
+- [ ] **Consistent structure across all chapters**: A standardized lesson template will be enforced.
+- [ ] **Fully reproducible steps, commands, and workflows**: All code examples and setup instructions will be rigorously tested.
+- [ ] **Verified technical instructions only**: Only validated commands and procedures will be included.
+- [ ] **Simple English (Grade 8–10 readability)**: Content will be written to be easily understandable.
+- [ ] **Consistent lesson format**: overview → concepts → steps → code → examples → best practices: Each lesson will adhere to this predefined structure.
+- [ ] **Syntax-highlighted code blocks and diagrams where useful**: Markdown for code blocks and explicit descriptions for diagrams will be used.
 
 ## Project Structure
 

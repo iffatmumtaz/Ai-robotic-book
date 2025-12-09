@@ -1,55 +1,84 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+Version change: 1.0.0 -> 1.1.0
+Modified principles:
+  - Old: Hands-on Learning, Clarity and Accessibility, Practical Application, Docusaurus as Documentation Stack
+  - New: Accuracy using official documentation and primary sources, Clear writing for beginner–intermediate developers, Consistent structure across all chapters, Fully reproducible steps, commands, and workflows
+Added sections: Key Standards
+Removed sections: none
+Templates requiring updates:
+- .specify/templates/plan-template.md (⚠ pending)
+- .specify/templates/spec-template.md (⚠ pending)
+- .specify/templates/tasks-template.md (⚠ pending)
+- .specify/templates/commands/*.md (⚠ pending)
+Follow-up TODOs: none.
+-->
+# Physical AI Book Constitution
+
+## Vision
+
+To empower beginners and intermediate learners with practical knowledge and hands-on experience in Physical AI, fostering a deep understanding through tangible projects and clear explanations.
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Accuracy using official documentation and primary sources
+The book content must be accurate, verifiable, and based on official documentation and primary sources to ensure reliability and correctness.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Clear writing for beginner–intermediate developers
+All writing should be clear, concise, and accessible, catering to both beginner and intermediate developers without oversimplification or excessive jargon.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Consistent structure across all chapters
+A uniform structure must be maintained across all chapters and lessons to provide a predictable and intuitive learning experience for readers.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Fully reproducible steps, commands, and workflows
+All instructions, code examples, and workflows must be fully reproducible, allowing readers to replicate results and understand concepts through hands-on practice.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+## Key Standards
 
-### [PRINCIPLE_6_NAME]
+### I. Verified technical instructions only
+Only technically verified and accurate instructions will be included in the content, ensuring readers receive reliable guidance.
 
+### II. Simple English (Grade 8–10 readability)
+The language used throughout the book must be simple and straightforward, targeting a Grade 8–10 readability level to maximize comprehension.
 
-[PRINCIPLE__DESCRIPTION]
+### III. Consistent lesson format: overview → concepts → steps → code → examples → best practices
+Each lesson must adhere to a consistent format: an overview, core concepts, step-by-step instructions, code examples, practical applications, and best practices.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+### IV. Syntax-highlighted code blocks and diagrams where useful
+Code blocks must be syntax-highlighted for readability, and diagrams should be used judiciously to illustrate complex concepts visually.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+## Success Criteria
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+- Docusaurus build and GitHub Pages deployment succeed.
+- Lessons follow structure and tone consistently.
+- No outdated or unverified commands.
+- Content is clear, accurate, and reproducible.
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Constraints
+
+- 1 chapter with 3 lessons (600–1200 words each).
+- Must follow Docusaurus v3+ formatting.
+- All commands must be tested and accurate.
+- Content must support GitHub Pages deployment.
+
+## Stakeholders
+
+- Authors: Responsible for content creation and technical accuracy.
+- Editors: Responsible for clarity, grammar, and overall book quality.
+- Readers: The primary beneficiaries, whose learning experience is paramount.
+- Docusaurus Community: Benefitting from increased adoption and examples of the framework.
+
+## Brand Voice
+
+- **Educational**: Informative, clear, and easy to understand.
+- **Empowering**: Encouraging and building confidence in learners.
+- **Practical**: Focused on real-world applications and hands-on experience.
+- **Approachable**: Friendly and engaging without being overly informal.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+All content amendments and additions must adhere to the defined vision and principles.
+Changes to the core principles or governance require review by all primary stakeholders.
+Version numbers will follow semantic versioning (MAJOR.MINOR.PATCH) for significant changes to the constitution.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.1.0 | **Ratified**: 2025-12-05 | **Last Amended**: 2025-12-06
